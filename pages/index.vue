@@ -1,0 +1,3 @@
+<template>
+    Hello, Mastering Nuxt 3!
+</template>
