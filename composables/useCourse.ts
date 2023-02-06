@@ -1,5 +1,5 @@
 import courseData from "./courseData"
 
-export const userCourse = () => {
+export const useCourse = () => {
   return courseData;
 }
