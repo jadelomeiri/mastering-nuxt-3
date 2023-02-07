@@ -14,7 +14,9 @@
         </div>
         <VideoPlayer v-if="lesson.videoId" :videoId="lesson.videoId" />
         <p>{{ lesson.text }}</p>
-        <LessonCompleteButton :model-value="isLessonComplete" @update:model-value="toggleComplete" />
+        <LessonCompleteButton
+            :model-value="isLessonComplete"
+            @update:model-value="throw createError('Could not update');" />
     </div>
 </template>
 
