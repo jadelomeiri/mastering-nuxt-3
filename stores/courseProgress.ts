@@ -42,17 +42,17 @@ export const useCourseProgress = defineStore(
 
             // Optimistically update the progress value in the UI
             progress.value[chapter] = {
-                ...progress.value[chapter]
+                ...progress.value[chapter],
                 [lesson]: !currentProgress,
-      };
+            };
 
-        // TODO: Update in DB (lesson 6-4)
-    };
+            // TODO: Update in DB (lesson 6-4)
+        };
 
-return {
-    initialize,
-    progress,
-    toggleComplete,
-};
-  }
+        return {
+            initialize,
+            progress,
+            toggleComplete,
+        };
+    }
 );
