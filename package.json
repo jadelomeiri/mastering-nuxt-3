@@ -22,5 +22,8 @@
   },
   "overrides": {
     "vue": "latest"
+  },
+  "dependencies": {
+    "vite-plugin-vsharp": "^1.4.2"
   }
 }
