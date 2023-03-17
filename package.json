@@ -24,6 +24,7 @@
     "vue": "latest"
   },
   "dependencies": {
+    "stripe": "^11.14.0",
     "vite-plugin-vsharp": "^1.4.2"
   }
 }
